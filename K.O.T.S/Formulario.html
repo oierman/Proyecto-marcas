@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilosCSS/Formulario.css">
+    </head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="KOTS.html">
+                <img src="Fotos/KOTS_logo.png" width="200px" alt="KOTS Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="Peleas.html">Peleas</a></li>
+            <li><a href="Peleadores.html">Peleadores</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+            <li><a href="Formulario.html">Formulario</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Usuario.html">Usuario</a></li>
+        </ul>
+    </nav>
+    <div class="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="PHP/Formulario.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+    
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+    
+          <label for="movil">Numero de Movil:</label>
+          <input type="tel" id="movil" name="movil" pattern="[0-9]{9}" placeholder="Ej: 300123456" required>
+    
+          <label for="email">Correo Electronico:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    
+          <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
