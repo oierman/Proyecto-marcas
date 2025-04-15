@@ -1,2 +1,0 @@
-Usuario: oier | Contraseña: 1234
-Usuario: a | Contraseña: a
