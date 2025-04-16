@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="estilosCSS/Registro.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="KOTS.html">
+                    <img src="Fotos/KOTS_logo.png" width="200px" alt="KOTS Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Peleas.html">Peleas</a></li>
+                <li><a href="Peleadores.html">Peleadores</a></li>
+                <li><a href="Registro.html">Registro</a></li>
+                <li><a href="Formulario.html">Formulario</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Usuario.html">Usuario</a></li>
+            </ul>
+        </nav>
+        <div class="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="PHP/Registro.php" method="post">
+
+            <label for="Usuario">Usuario:</label>
+            <input type="text" id="Usuario" name="Usuario" required>
+
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+        
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" required>
+        
+              <label for="movil">Numero de Movil:</label>
+              <input type="tel" id="movil" name="movil" pattern="[0-9]{9}" placeholder="Ej: 300123456" required>
+        
+              <label for="email">Correo Electronico:</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="Contrasena">Contrasena</label>
+              <input type="text" id="Contrasena"  name="Contrasena"  required>
+        
+              <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+    </html>

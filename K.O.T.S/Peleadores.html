@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peleadores</title>
+  <link rel="stylesheet" href="estilosCSS/Peleadores.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="KOTS.html">
+        <img src="Fotos/KOTS_logo.png" width="200px" alt="KOTS Logo" />
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="Peleas.html">Peleas</a></li>
+      <li><a href="Peleadores.html">Peleadores</a></li>
+      <li><a href="Registro.html">Registro</a></li>
+      <li><a href="Formulario.html">Formulario</a></li>
+      <li><a href="Login.html">Login</a></li>
+      <li><a href="Usuario.html">Usuario</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <div class="carrusel-container">
+      <div class="carrusel">
+        <div class="diapositiva"><img src="Fotos/KOTS_foto8.png" alt="Peleador 1"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto9.png" alt="Peleador 2"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto11.png" alt="Peleador 3"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto12.png" alt="Peleador 4"></div>
+        <div class="diapositiva"><img src="Fotos/Kots_foto13.png" alt="Peleador 5"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto14.png" alt="Peleador 6"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto15.png" alt="Peleador 7"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto16.png" alt="Peleador 8"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto17.png" alt="Peleador 9"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto18.png" alt="Peleador 10"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto19.png" alt="Peleador 11"></div>
+        <div class="diapositiva"><img src="Fotos/KOTS_foto20.png" alt="Peleador 12"></div>
+        <div class="diapositiva"> <img src="Fotos/KOTS_foto21.png" alt="Peleador 13"></div>     
+        </div>
+        </div>
+      </div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      <div class="indicadores">
+        <span class="indicador active" onclick="goToSlide(0)"></span>
+        <span class="indicador" onclick="goToSlide(1)"></span>
+        <span class="indicador" onclick="goToSlide(2)"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="JS/carrusel.js"></script>
+</body>
+</html>

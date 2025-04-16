@@ -1,0 +1,6 @@
+1) para que la pagina funcniones correctamente se tiene que sacar del ".ZIP".
+2) hay una carpeta llamada BD, para crear la base de datos se tiene que ejecutar el fichero "creacionbd.php".
+3) para eliminar la base de datos tambien se ejecutatra el fichero "EliminarBD.php".
+4) es recomendable borrar el contenido de "registro.txt" para prevenir errores.
+5) El archivo principal es KOTS.html, de ahi se pueden acceder a los demas lugares.
+6) Para poder ver adecuadamente el trabajo se teien que tener instalado XAMP y el archivo de "K.O.T.S" tiene que estar dentro de la siguiente ubicacion: C:\xampp\htdocs
